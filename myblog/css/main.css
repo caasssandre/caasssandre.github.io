@@ -1,0 +1,16 @@
+/* {
+    border-style: solid;
+}*/
+body {
+    font-family: 'Dosis', sans-serif;
+  }
+.answer {
+    background-color:#e0e0eb;
+    margin-left: 25px;
+    max-width: 100%;
+    display: inline-block;
+}
+li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
