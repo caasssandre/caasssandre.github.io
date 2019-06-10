@@ -1,16 +1,38 @@
-/* {
-    border-style: solid;
-}*/
+*{ /*border-style: solid;*/
+    color: midnightblue;
+    margin: 0;
+}
 body {
     font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    padding: 0;
+    border: 0;
   }
 .answer {
     background-color:#e0e0eb;
     margin-left: 25px;
-    max-width: 100%;
+    margin-right: 25px;
     display: inline-block;
+    padding: 10px;
+    text-indent: 1em;
+    width:90%;
 }
 li {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.title {
+    color: #D77C15;
+    font-weight: lighter;
+    background-color: #4569AF;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+  }
+  .spacer {
+    padding: 60px;
+  }
