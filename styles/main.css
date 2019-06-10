@@ -1,13 +1,11 @@
 * {
   /*border-style: solid;*/
+  margin: 0;
 }
 body {
   font-family: 'Dosis', sans-serif;
 }
-.row {
-  max-width: 100%;
-  position: fixed;
-}
+
 .title {
   color: #D77C15;
   font-weight: lighter;
@@ -18,11 +16,18 @@ body {
   padding-left: 20px;
   margin: 0px;
   width: 100%;
-}
 
+}
+.title-box {
+  position: fixed;
+  width: 100%
+}
+.spacer {
+  padding: 60px;
+}
 .flex-container {
   display: flex;
-  border-color: red;  
+  border-color: red; 
 }
 .flex-container-column-small {
   display: flex;
@@ -43,9 +48,10 @@ body {
 .image {
     max-width: 100px;
     max-height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  
 }
 h2 { text-align: center;
-}
-p {
-
 }
