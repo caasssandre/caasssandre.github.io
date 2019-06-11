@@ -1,6 +1,7 @@
 *{ /*border-style: solid;*/
     color: midnightblue;
     margin: 0;
+    line-height: 45px;
 }
 body {
     font-family: 'Dosis', sans-serif;
@@ -10,12 +11,13 @@ body {
   }
 .answer {
     background-color:#e0e0eb;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: inline-block;
     padding: 10px;
     text-indent: 1em;
     width:90%;
+    line-height: 30px;
 }
 li {
     margin-bottom: 20px;
@@ -36,4 +38,26 @@ li {
   }
   .spacer {
     padding: 60px;
+  }
+  .home-click {
+    position: absolute;
+    padding-top: 40px;
+    top: 0px;
+    right: 10%;
+  }
+  a:link {
+    color: rgb(4, 23, 61);
+    text-decoration: none;
+  }
+  a:visited {
+    color:#D77C15;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(220, 105, 255);
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(255, 38, 0);
+    text-decoration: underline;
   }

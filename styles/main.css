@@ -1,6 +1,7 @@
 * {
   /*border-style: solid;*/
   margin: 0;
+  line-height: 40px;
 }
 body {
   font-family: 'Dosis', sans-serif;
@@ -54,4 +55,21 @@ body {
   
 }
 h2 { text-align: center;
+}
+
+a:link {
+  color: #4569AF;
+  text-decoration: none;
+}
+a:visited {
+  color:#D77C15;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(220, 105, 255);
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(255, 38, 0);
+  text-decoration: underline;
 }
