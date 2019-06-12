@@ -29,11 +29,11 @@ li {
     font-weight: lighter;
     background-color: #4569AF;
     text-transform: uppercase;
+    text-align: right;
     padding-top: 40px;
     padding-bottom: 18px;
-    padding-left: 20px;
-    margin: 0px;
-    width: 100%;
+    padding-right: 100px;
+    width: 90%;
     position: fixed;
   }
   .spacer {
@@ -43,7 +43,7 @@ li {
     position: absolute;
     padding-top: 40px;
     top: 0px;
-    right: 10%;
+    left: 20px;
   }
   a:link {
     color: rgb(4, 23, 61);
