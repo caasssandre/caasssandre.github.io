@@ -30,17 +30,13 @@ body {
   display: flex;
   border-color: red; 
 }
-.flex-container-column-small {
-  display: flex;
-  flex-direction: column;
+.container-small {
   width: 20%;
   border-color: blue;
   padding: 20px;
   background-color: #D77C15;
 }
-.flex-container-column-large {
-  display: flex;
-  flex-direction: column;
+.container-large {
   width: 80%;
   border-color: blue;
   padding: 20px;
