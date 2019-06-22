@@ -8,6 +8,7 @@
 }
 body {
     font-family: 'Dosis', sans-serif;
+    margin-bottom: 20px;
 }
 .answer {
     background-color:#e0e0eb;
@@ -19,9 +20,12 @@ body {
     width:90%;
     line-height: 30px;
 }
-li {
+h3 {
     margin: 20px;
-    max-width: 70%;
+    max-width: 90%;
+}
+h4 {
+    margin: 40px;
 }
 .title {
     color: #D77C15;
